@@ -8,16 +8,11 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
-  <!-- =========================================================
-       HEADER / NAVEGACIÓN FIJA
-       ========================================================= -->
   <header class="header" id="header">
     <div class="container header-container">
       <a href="index.html" class="brand" aria-label="Salud Vida – Inicio">
         <img src="img/logos/logo-saludvida-header.png" alt="Logo Salud Vida">
       </a>
-
       <nav class="nav" aria-label="Navegación principal">
         <a href="index.html">Inicio</a>
         <a href="index.html#servicios">Servicios</a>
@@ -27,33 +22,19 @@
       </nav>
     </div>
   </header>
-
-  <!-- =========================================================
-       HERO DE PÁGINA
-       ========================================================= -->
   <section class="page-hero">
     <span class="section-label">Estamos aquí para ti</span>
     <h1>Contáctenos</h1>
     <p>Agende su cita, realice consultas o visítenos. Nuestro equipo está disponible para atenderle con gusto.</p>
   </section>
-
-  <!-- =========================================================
-       SECCIÓN FORMULARIO + INFO
-       ========================================================= -->
   <section class="section">
     <div class="container">
       <div class="contact-layout">
-
-        <!-- Panel de información -->
         <aside class="contact-info-panel">
           <h3>Información de contacto</h3>
-
-          <!-- Iconos descargados de https://icons.getbootstrap.com/ -->
           <ul class="contact-info-list">
-
             <li class="contact-info-item">
               <div class="contact-icon-box">
-                <!-- https://icons.getbootstrap.com/#geo-alt-fill -->
                 <img src="img/icons/geo-alt-fill.svg" alt="Dirección">
               </div>
               <div class="contact-info-text">
@@ -61,10 +42,8 @@
                 <span>Calle 18 # 25–40<br>Pasto, Nariño, Colombia</span>
               </div>
             </li>
-
             <li class="contact-info-item">
               <div class="contact-icon-box">
-                <!-- https://icons.getbootstrap.com/#telephone-fill -->
                 <img src="img/icons/telephone-fill.svg" alt="Teléfono">
               </div>
               <div class="contact-info-text">
@@ -72,10 +51,8 @@
                 <span>(+57) 602 720 0000<br>Línea urgencias: 123</span>
               </div>
             </li>
-
             <li class="contact-info-item">
               <div class="contact-icon-box">
-                <!-- https://icons.getbootstrap.com/#envelope-fill -->
                 <img src="img/icons/envelope-fill.svg" alt="Correo electrónico">
               </div>
               <div class="contact-info-text">
@@ -83,10 +60,8 @@
                 <span>info@saludvida.com.co<br>citas@saludvida.com.co</span>
               </div>
             </li>
-
             <li class="contact-info-item">
               <div class="contact-icon-box">
-                <!-- https://icons.getbootstrap.com/#clock-fill -->
                 <img src="img/icons/clock-fill.svg" alt="Horario de atención">
               </div>
               <div class="contact-info-text">
@@ -94,12 +69,8 @@
                 <span>Lunes – Viernes: 7:00 am – 7:00 pm<br>Sábados: 8:00 am – 2:00 pm<br>Urgencias: 24 horas</span>
               </div>
             </li>
-
           </ul>
-
-          <!-- Redes sociales -->
           <h4 style="font-family:Verdana,Geneva,sans-serif;font-size:0.9rem;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;color:var(--text-dark);margin-bottom:16px;">Síguenos</h4>
-          <!-- Iconos descargados de https://icons.getbootstrap.com/ -->
           <div class="footer-social" style="background:transparent;">
             <a href="#" aria-label="Facebook" style="background:rgba(10,124,92,0.1);">
               <img src="img/icons/facebook.svg" alt="Facebook">
@@ -115,14 +86,10 @@
             </a>
           </div>
         </aside>
-
-        <!-- Panel del formulario -->
         <div class="contact-form-panel">
           <h3>Envíenos un mensaje</h3>
           <p class="form-subtitle">Complete el formulario y nos comunicaremos con usted a la brevedad posible.</p>
-
           <form id="contactForm" action="#" method="POST" novalidate>
-
             <div class="form-row">
               <div class="form-group">
                 <label for="nombre">Nombre <span class="required">*</span></label>
@@ -149,7 +116,6 @@
                 >
               </div>
             </div>
-
             <div class="form-row">
               <div class="form-group">
                 <label for="email">Correo electrónico <span class="required">*</span></label>
@@ -175,7 +141,6 @@
                 >
               </div>
             </div>
-
             <div class="form-group">
               <label for="especialidad">Especialidad de interés</label>
               <select id="especialidad" name="especialidad" class="form-control">
@@ -189,7 +154,6 @@
                 <option value="otro">Otra especialidad</option>
               </select>
             </div>
-
             <div class="form-group">
               <label for="asunto">Asunto <span class="required">*</span></label>
               <input
@@ -201,7 +165,6 @@
                 required
               >
             </div>
-
             <div class="form-group">
               <label for="mensaje">Mensaje <span class="required">*</span></label>
               <textarea
@@ -212,7 +175,6 @@
                 required
               ></textarea>
             </div>
-
             <div class="form-check">
               <input type="checkbox" id="terminos" name="terminos" required>
               <label for="terminos">
@@ -220,31 +182,20 @@
                 <a href="#">Tratamiento de Datos Personales</a> del Hospital Salud Vida.
               </label>
             </div>
-
-            <!-- Icono descargado de https://icons.getbootstrap.com/#send -->
             <button type="submit" class="btn-submit" id="btnEnviar">
               <img src="img/icons/send.svg" alt="" class="btn-icon btn-icon-white">
               Enviar mensaje
             </button>
-
           </form>
-
-          <!-- Mensaje de éxito (oculto por defecto) -->
           <div id="formSuccess" style="display:none; margin-top:24px; padding:20px 24px; background:rgba(10,124,92,0.1); border:1px solid var(--primary); border-radius:var(--radius-sm); color:var(--primary);">
             <strong>¡Mensaje enviado con éxito!</strong><br>
             Nos comunicaremos con usted en un plazo de 24 horas hábiles. ¡Gracias por contactarnos!
           </div>
         </div>
-
       </div>
-
-      <!-- Horarios y Mapa -->
       <div class="schedule-grid">
-
-        <!-- Horarios -->
         <div class="schedule-card">
           <h4>
-            <!-- Icono descargado de https://icons.getbootstrap.com/#clock -->
             <img src="img/icons/clock.svg" alt="" class="svc-icon" style="width:22px;height:22px;">
             Horarios de Atención
           </h4>
@@ -273,36 +224,21 @@
             </tbody>
           </table>
         </div>
-
-        <!-- Mapa -->
         <div class="schedule-card">
           <h4>
-            <!-- Icono descargado de https://icons.getbootstrap.com/#map -->
             <img src="img/icons/map.svg" alt="" class="svc-icon" style="width:22px;height:22px;">
             Encuéntrenos
           </h4>
           <div class="map-wrap">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.5396!2d-77.2811!3d1.2136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e2ed4a18a7d3d45%3A0x0!2sPasto%2C+Nari%C3%B1o!5e0!3m2!1ses!2sco!4v1610000000000"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-              title="Ubicación Hospital Salud Vida en Pasto, Nariño"
-            ></iframe>
+            <img src="img/ubicacion.jpg" alt="Ubicación Hospital Salud Vida" style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-sm);">
           </div>
         </div>
-
       </div>
     </div>
   </section>
-
-  <!-- =========================================================
-       FOOTER
-       ========================================================= -->
   <footer class="footer">
     <div class="container">
       <div class="footer-grid">
-
         <div>
           <div class="footer-brand">
             <img src="img/logos/logo-saludvida-footer.png" alt="Salud Vida Hospital">
@@ -311,7 +247,6 @@
             Hospital Salud Vida – comprometidos con la excelencia médica, la innovación y el bienestar
             integral de cada paciente y su familia en Pasto, Nariño.
           </p>
-          <!-- Iconos descargados de https://icons.getbootstrap.com/ -->
           <div class="footer-social">
             <a href="#" aria-label="Facebook">
               <img src="img/icons/facebook-white.svg" alt="Facebook">
@@ -324,7 +259,6 @@
             </a>
           </div>
         </div>
-
         <div>
           <h4>Navegación</h4>
           <ul class="footer-links">
@@ -335,7 +269,6 @@
             <li><a href="contacto.html"><img src="img/icons/arrow-right-white.svg" alt="">Contacto</a></li>
           </ul>
         </div>
-
         <div>
           <h4>Servicios</h4>
           <ul class="footer-links">
@@ -345,10 +278,8 @@
             <li><a href="contacto.html"><img src="img/icons/arrow-right-white.svg" alt="">Urgencias 24/7</a></li>
           </ul>
         </div>
-
         <div>
           <h4>Contacto</h4>
-          <!-- Iconos descargados de https://icons.getbootstrap.com/ -->
           <div class="footer-contact-info">
             <div class="contact-item">
               <img src="img/icons/geo-alt-accent.svg" alt="" class="contact-icon-img">
@@ -364,36 +295,24 @@
             </div>
           </div>
         </div>
-
       </div>
-
       <div class="footer-bottom">
         <p>© 2024 Hospital Salud Vida. Todos los derechos reservados.</p>
         <p>Universidad de Nariño – Ingeniería de Sistemas – Computación Gráfica</p>
       </div>
     </div>
   </footer>
-
-  <!-- =========================================================
-       SCRIPT
-       ========================================================= -->
   <script>
-    // Header scroll
     const header = document.getElementById('header');
     window.addEventListener('scroll', () => {
       header.classList.toggle('scrolled', window.scrollY > 50);
     });
-
-    // Validación y simulación de envío del formulario
     const form = document.getElementById('contactForm');
     const successMsg = document.getElementById('formSuccess');
-
     form.addEventListener('submit', function (e) {
       e.preventDefault();
-
       const required = form.querySelectorAll('[required]');
       let valid = true;
-
       required.forEach(field => {
         if (!field.value.trim() || (field.type === 'checkbox' && !field.checked)) {
           field.style.borderColor = '#e53e3e';
@@ -402,18 +321,15 @@
           field.style.borderColor = '';
         }
       });
-
       if (valid) {
         form.style.display = 'none';
         successMsg.style.display = 'block';
         successMsg.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
     });
-
     form.querySelectorAll('.form-control').forEach(el => {
       el.addEventListener('input', () => { el.style.borderColor = ''; });
     });
   </script>
-
 </body>
 </html>

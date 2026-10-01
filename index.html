@@ -3,364 +3,244 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Hospital Salud Vida – Atención médica de calidad, con especialistas en cardiología, pediatría, neurología y más. Pasto, Colombia.">
-  <title>Salud Vida – Hospital de Excelencia</title>
+  <meta name="description" content="Hospital Salud Vida - Cuidamos lo mas importante: tu salud.">
+  <title>Salud Vida Hospital</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
+  <!-- HEADER -->
   <header class="header" id="header">
     <div class="container header-container">
-      <a href="index.html" class="brand" aria-label="Salud Vida – Inicio">
-        <img src="img/logos/logo-saludvida-header.png" alt="Logo Salud Vida">
+      <a href="index.html" class="brand" aria-label="Salud Vida - Inicio">
+        <img src="img/logos/logo-saludvida-header.png" alt="Salud Vida HOSPITAL">
       </a>
-      <nav class="nav" aria-label="Navegación principal">
-        <a href="#inicio"    class="active">Inicio</a>
+      <nav class="nav" aria-label="Navegacion principal">
+        <a href="#inicio" class="active">Inicio</a>
+        <a href="#noticias">Noticias</a>
         <a href="#servicios">Servicios</a>
         <a href="#nosotros">Nosotros</a>
-        <a href="#equipo">Equipo</a>
-        <a href="contacto.html" class="btn-nav-cta">Contacto</a>
+        <a href="contacto.html">Contacto</a>
       </nav>
+      <button class="search-toggle" aria-label="Buscar">
+        <img src="img/icons/search.svg" alt="Buscar" class="search-icon-img">
+      </button>
     </div>
   </header>
+
+  <!-- HERO -->
   <section class="hero" id="inicio">
-    <div class="container">
-      <div class="hero-grid">
-        <div class="hero-content">
-          <div class="hero-badge">
-            <span class="pulse-dot"></span>
-            Acreditado por el Ministerio de Salud
-          </div>
-          <h1>
-            Tu salud es
-            <span>nuestra prioridad</span>
-          </h1>
-          <p>
-            En el Hospital <strong>Salud Vida</strong> contamos con los mejores especialistas
-            y la tecnología más avanzada para brindarte la atención que mereces,
-            con calidez humana y excelencia médica.
-          </p>
-          <div class="hero-actions">
-            <a href="#" class="btn btn-primary">
-              <img src="img/icons/calendar-plus.svg" alt="" class="btn-icon btn-icon-white">
-              Agendar Cita
-            </a>
-            <a href="#servicios" class="btn btn-secondary">
-              <img src="img/icons/grid.svg" alt="" class="btn-icon">
-              Ver Servicios
-            </a>
-          </div>
-        </div>
-        <div class="hero-visual">
-          <img
-            src="img/hero.jpg"
-            alt="Médico profesional del Hospital Salud Vida"
-            loading="eager"
-          >
-          <div class="hero-stat-cards">
-            <div class="stat-card">
-              <span class="stat-num">+20</span>
-              <span class="stat-label">Años de experiencia</span>
-            </div>
-            <div class="stat-card">
-              <span class="stat-num">150+</span>
-              <span class="stat-label">Especialistas</span>
-            </div>
-            <div class="stat-card">
-              <span class="stat-num">98%</span>
-              <span class="stat-label">Satisfacción</span>
-            </div>
-          </div>
+    <div class="hero-bg">
+      <img src="img/hero.jpg" alt="Hospital building">
+    </div>
+    <div class="container hero-container">
+      <div class="hero-content">
+        <h1>
+          Cuidamos<br>
+          lo más importante:<br>
+          <span>tu salud</span>
+        </h1>
+        <p>
+          Atención médica integral con un equipo humano<br>
+          comprometido y tecnología de vanguardia.
+        </p>
+        <div class="hero-actions">
+          <a href="#servicios" class="btn btn-primary">
+            Conoce nuestros servicios
+          </a>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- FEATURE STRIP -->
+  <section class="features-strip">
+    <div class="container">
+      <div class="features-row">
+        <div class="feature-card">
+          <div class="fchip-icon">
+            <img src="img/icons/heart-fill.svg" alt="">
+          </div>
+          <strong>Atención integral</strong>
+          <span>para toda la familia</span>
+        </div>
+        <div class="feature-card">
+          <div class="fchip-icon">
+            <img src="img/icons/people.svg" alt="">
+          </div>
+          <strong>Especialistas</strong>
+          <span>altamente capacitados</span>
+        </div>
+        <div class="feature-card">
+          <div class="fchip-icon">
+            <img src="img/icons/activity.svg" alt="">
+          </div>
+          <strong>Tecnología</strong>
+          <span>médica avanzada</span>
+        </div>
+        <div class="feature-card">
+          <div class="fchip-icon">
+            <img src="img/icons/shield-check.svg" alt="">
+          </div>
+          <strong>Compromiso</strong>
+          <span>con la comunidad</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOTICIAS DESTACADAS -->
+  <section class="section" id="noticias">
+    <div class="container">
+      <div class="section-row-header">
+        <h2>Noticias destacadas</h2>
+        <a href="#" class="ver-todas">Ver todas &rarr;</a>
+      </div>
+      <div class="news-grid">
+        <article class="news-card">
+          <div class="news-img">
+            <img src="img/about.jpg" alt="Noticia 1" loading="lazy">
+          </div>
+          <div class="news-body">
+            <span class="news-tag news-tag-inst">INSTITUCIONAL</span>
+            <h3>Inauguramos la nueva Unidad de Cuidados Intensivos</h3>
+            <p>Ampliamos nuestra capacidad de atención con tecnología de última generación.</p>
+            <div class="news-footer">
+              <span class="news-date">10 abr. 2026</span>
+              <a href="#" class="news-link">&rarr;</a>
+            </div>
+          </div>
+        </article>
+        <article class="news-card">
+          <div class="news-img">
+            <img src="img/imagen1.jpg" alt="Noticia 2" loading="lazy">
+          </div>
+          <div class="news-body">
+            <span class="news-tag news-tag-salud">SALUD</span>
+            <h3>Campaña de vacunación infantil en nuestra ciudad</h3>
+            <p>Jornadas gratuitas de vacunación para niños y niñas de 0 a 5 años.</p>
+            <div class="news-footer">
+              <span class="news-date">8 abr. 2026</span>
+              <a href="#" class="news-link">&rarr;</a>
+            </div>
+          </div>
+        </article>
+        <article class="news-card">
+          <div class="news-img">
+            <img src="img/hero.jpg" alt="Noticia 3" loading="lazy">
+          </div>
+          <div class="news-body">
+            <span class="news-tag news-tag-comunidad">COMUNIDAD</span>
+            <h3>Jornada de bienestar para nuestros colaboradores</h3>
+            <p>Más de 200 empleados participaron en actividades de salud física y mental.</p>
+            <div class="news-footer">
+              <span class="news-date">5 abr. 2026</span>
+              <a href="#" class="news-link">&rarr;</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- NUESTROS SERVICIOS -->
   <section class="section" id="servicios">
     <div class="container">
-      <div class="section-header">
-        <span class="section-label">Nuestras Especialidades</span>
-        <h2>Servicios médicos de alta complejidad</h2>
-        <p>Ofrecemos atención integral con tecnología de punta y profesionales altamente capacitados.</p>
+      <div class="section-row-header">
+        <h2>Nuestros servicios</h2>
+        <a href="#" class="ver-todas">Ver todos &rarr;</a>
       </div>
-      <div class="services-grid">
-        <div class="service-card">
-          <div class="service-icon-wrap">
-            <img src="img/icons/heart-fill.svg" alt="Ícono Cardiología" class="svc-icon">
+      <div class="svc-grid">
+        <div class="svc-card">
+          <div class="svc-icon-wrap">
+            <img src="img/icons/heart-pulse.svg" alt="">
           </div>
-          <h3>Cardiología</h3>
-          <p>Diagnóstico y tratamiento de enfermedades cardiovasculares con equipos de última generación y cardiólogos intervencionistas certificados.</p>
+          <strong>Consulta externa</strong>
+          <p>Atención médica especializada para todas las edades.</p>
         </div>
-        <div class="service-card">
-          <div class="service-icon-wrap">
-            <img src="img/icons/person-fill.svg" alt="Ícono Pediatría" class="svc-icon">
+        <div class="svc-card">
+          <div class="svc-icon-wrap">
+            <img src="img/icons/activity.svg" alt="">
           </div>
-          <h3>Pediatría</h3>
-          <p>Cuidado integral del niño desde el nacimiento hasta la adolescencia. Nuestros pediatras garantizan un desarrollo saludable y feliz.</p>
+          <strong>Urgencias</strong>
+          <p>Atención 24/7 para situaciones críticas.</p>
         </div>
-        <div class="service-card">
-          <div class="service-icon-wrap">
-            <img src="img/icons/activity.svg" alt="Ícono Neurología" class="svc-icon">
+        <div class="svc-card">
+          <div class="svc-icon-wrap">
+            <img src="img/icons/hospital.svg" alt="">
           </div>
-          <h3>Neurología</h3>
-          <p>Diagnóstico y tratamiento de trastornos del sistema nervioso central y periférico, con neurólogos clínicos y neurocirujanos de alto nivel.</p>
+          <strong>Hospitalización</strong>
+          <p>Habitaciones seguras y confortables.</p>
         </div>
-        <div class="service-card">
-          <div class="service-icon-wrap">
-            <img src="img/icons/hospital.svg" alt="Ícono Urgencias" class="svc-icon">
+        <div class="svc-card">
+          <div class="svc-icon-wrap">
+            <img src="img/icons/shield-check.svg" alt="">
           </div>
-          <h3>Urgencias 24/7</h3>
-          <p>Atención de emergencias las 24 horas del día, los 365 días del año. Nuestro equipo de trauma y urgencias está siempre listo.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-icon-wrap">
-            <img src="img/icons/camera.svg" alt="Ícono Diagnóstico por Imagen" class="svc-icon">
-          </div>
-          <h3>Diagnóstico por Imagen</h3>
-          <p>Tomografía, resonancia magnética, ecografía y radiología digital con equipos de última tecnología para diagnósticos precisos y rápidos.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-icon-wrap">
-            <img src="img/icons/scissors.svg" alt="Ícono Cirugía General" class="svc-icon">
-          </div>
-          <h3>Cirugía General</h3>
-          <p>Procedimientos quirúrgicos ambulatorios y de alta complejidad con técnicas mínimamente invasivas y laparoscópicas de vanguardia.</p>
+          <strong>Programas de salud</strong>
+          <p>Prevención y bienestar para la comunidad.</p>
         </div>
       </div>
     </div>
   </section>
-  <section class="section section-alt" id="nosotros">
-    <div class="container">
-      <div class="about-grid">
-        <div class="about-visual">
-          <img
-            src="img/about.jpg"
-            alt="Equipo médico del Hospital Salud Vida"
-            loading="lazy"
-          >
-          <div class="about-visual-badge">
-            <strong>+50,000</strong>
-            <span>Pacientes atendidos</span>
-          </div>
-        </div>
-        <div class="about-content">
-          <span class="section-label">Quiénes somos</span>
-          <h2>Más de <em>20 años</em> cuidando tu bienestar</h2>
-          <p>
-            El Hospital <strong>Salud Vida</strong> es una institución prestadora de servicios de salud
-            comprometida con la excelencia médica, la innovación tecnológica y el bienestar integral
-            de cada paciente.
-          </p>
-          <p>
-            Desde nuestra fundación hemos atendido a miles de familias, brindando atención humanizada,
-            oportuna y de alta calidad en nuestras modernas instalaciones ubicadas en el corazón de
-            la ciudad de Pasto, Nariño.
-          </p>
-          <div class="about-features">
-            <div class="feature-item">
-              <img src="img/icons/award.svg" alt="" class="feat-icon">
-              <span>Acreditación nacional</span>
-            </div>
-            <div class="feature-item">
-              <img src="img/icons/shield-check.svg" alt="" class="feat-icon">
-              <span>Bioseguridad certificada</span>
-            </div>
-            <div class="feature-item">
-              <img src="img/icons/clock.svg" alt="" class="feat-icon">
-              <span>Atención 24/7</span>
-            </div>
-            <div class="feature-item">
-              <img src="img/icons/people.svg" alt="" class="feat-icon">
-              <span>+150 especialistas</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="section" id="equipo">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-label">Nuestros Especialistas</span>
-        <h2>Equipo médico de excelencia</h2>
-        <p>Profesionales comprometidos con tu salud y bienestar, con formación en las mejores universidades del país y el mundo.</p>
-      </div>
-      <div class="doctors-grid">
-        <div class="doctor-card">
-          <div class="doctor-img">
-            <img
-              src="img/doctor1.jpg"
-              alt="Dra. Ana Martínez – Cardióloga"
-              loading="lazy"
-            >
-          </div>
-          <div class="doctor-info">
-            <h3>Dra. Ana Martínez</h3>
-            <div class="specialty">Cardiología</div>
-            <p>Especialista en cardiología intervencionista con 15 años de experiencia. Formada en la Universidad Nacional y con fellowship en España.</p>
-          </div>
-        </div>
-        <div class="doctor-card">
-          <div class="doctor-img">
-            <img
-              src="img/doctor2.jpg"
-              alt="Dr. Carlos Pérez – Neurólogo"
-              loading="lazy"
-            >
-          </div>
-          <div class="doctor-info">
-            <h3>Dr. Carlos Pérez</h3>
-            <div class="specialty">Neurología</div>
-            <p>Neurólogo clínico especializado en trastornos del movimiento y epilepsia. Docente universitario y miembro de la Sociedad Colombiana de Neurología.</p>
-          </div>
-        </div>
-        <div class="doctor-card">
-          <div class="doctor-img">
-            <img
-              src="img/doctor3.jpg"
-              alt="Dra. Laura Gómez – Pediatra"
-              loading="lazy"
-            >
-          </div>
-          <div class="doctor-info">
-            <h3>Dra. Laura Gómez</h3>
-            <div class="specialty">Pediatría</div>
-            <p>Pediatra con subespecialidad en neonatología. Más de 12 años cuidando la salud de los más pequeños en nuestra institución.</p>
-          </div>
-        </div>
-        <div class="doctor-card">
-          <div class="doctor-img">
-            <img
-              src="img/doctor4.jpg"
-              alt="Dr. Javier Torres – Cirujano"
-              loading="lazy"
-            >
-          </div>
-          <div class="doctor-info">
-            <h3>Dr. Javier Torres</h3>
-            <div class="specialty">Cirugía General</div>
-            <p>Cirujano general y laparoscópico con certificación en técnicas mínimamente invasivas. Más de 2,000 procedimientos exitosos.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
+  <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
       <div class="footer-grid">
-        <div>
+        <div class="footer-col-1">
           <div class="footer-brand">
             <img src="img/logos/logo-saludvida-footer.png" alt="Salud Vida Hospital">
           </div>
           <p class="footer-desc">
-            Hospital Salud Vida – comprometidos con la excelencia médica, la innovación y el bienestar
-            integral de cada paciente y su familia en Pasto, Nariño.
+            Trabajamos cada día por una mejor calidad de vida, promoviendo la salud y el bienestar de nuestra comunidad.
           </p>
-          <div class="footer-social">
-            <a aria-label="Facebook">
-              <img src="img/icons/facebook-white.svg" alt="Facebook">
-            </a>
-            <a aria-label="Instagram">
-              <img src="img/icons/instagram-white.svg" alt="Instagram">
-            </a>
-            <a aria-label="Twitter">
-              <img src="img/icons/twitter-white.svg" alt="Twitter">
-            </a>
-            <a aria-label="YouTube">
-              <img src="img/icons/youtube-white.svg" alt="YouTube">
-            </a>
-          </div>
         </div>
-        <div>
+        <div class="footer-col-2">
           <h4>Navegación</h4>
           <ul class="footer-links">
-            <li>
-              <a href="#inicio">
-                <img src="img/icons/arrow-right-white.svg" alt="">
-                Inicio
-              </a>
-            </li>
-            <li>
-              <a href="#servicios">
-                <img src="img/icons/arrow-right-white.svg" alt="">
-                Servicios
-              </a>
-            </li>
-            <li>
-              <a href="#nosotros">
-                <img src="img/icons/arrow-right-white.svg" alt="">
-                Nosotros
-              </a>
-            </li>
-            <li>
-              <a href="#equipo">
-                <img src="img/icons/arrow-right-white.svg" alt="">
-                Equipo
-              </a>
-            </li>
-            <li>
-              <a href="#inicio">
-                <img src="img/icons/arrow-right-white.svg" alt="">
-                Contacto
-              </a>
-            </li>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#noticias">Noticias</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
           </ul>
         </div>
-        <div>
+        <div class="footer-col-3">
           <h4>Servicios</h4>
           <ul class="footer-links">
-            <li>Cardiología</li>
-            <li>Pediatría</li>
-            <li>Neurología</li>
-            <li>Urgencias 24/7</li>
-            <li>Diagnóstico por Imagen</li>
+            <li><a href="#servicios">Consulta externa</a></li>
+            <li><a href="#servicios">Urgencias</a></li>
+            <li><a href="#servicios">Hospitalización</a></li>
+            <li><a href="#servicios">Programas de salud</a></li>
           </ul>
         </div>
-        <div>
-          <h4>Contacto</h4>
-          <div class="footer-contact-info">
-            <div class="contact-item">
-              <img src="img/icons/geo-alt-accent.svg" alt="" class="contact-icon-img">
-              <span>Calle 18 # 25–40<br>Pasto, Nariño, Colombia</span>
-            </div>
-            <div class="contact-item">
-              <img src="img/icons/telephone-accent.svg" alt="" class="contact-icon-img">
-              <span>(+57) 602 720 0000<br>Urgencias: 123</span>
-            </div>
-            <div class="contact-item">
-              <img src="img/icons/envelope-accent.svg" alt="" class="contact-icon-img">
-              <span>info@saludvida.com.co</span>
-            </div>
+        <div class="footer-col-4">
+          <h4>Síguenos</h4>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><img src="img/icons/facebook.svg" alt="Facebook"></a>
+            <a href="#" aria-label="Instagram"><img src="img/icons/instagram.svg" alt="Instagram"></a>
+            <a href="#" aria-label="Twitter"><img src="img/icons/twitter.svg" alt="Twitter"></a>
+            <a href="#" aria-label="YouTube"><img src="img/icons/youtube.svg" alt="YouTube"></a>
           </div>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>© 2024 Hospital Salud Vida. Todos los derechos reservados.</p>
-        <p>Universidad de Nariño – Ingeniería de Sistemas – Computación Gráfica</p>
+        <p>&copy; 2026 Hospital Salud Vida. Todos los derechos reservados.</p>
+        <p><a href="#">Política de privacidad</a> | <a href="#">Términos de uso</a></p>
       </div>
     </div>
   </footer>
+
   <script>
-    
+    // Header scroll
     const header = document.getElementById('header');
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 50) {
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 10) {
         header.classList.add('scrolled');
       } else {
         header.classList.remove('scrolled');
       }
     });
-    
-    const sections = document.querySelectorAll('section[id]');
-    const navLinks = document.querySelectorAll('.nav a[href^="#"]');
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          navLinks.forEach(link => link.classList.remove('active'));
-          const activeLink = document.querySelector(`.nav a[href="#${entry.target.id}"]`);
-          if (activeLink) activeLink.classList.add('active');
-        }
-      });
-    }, { threshold: 0.4 });
-    sections.forEach(section => observer.observe(section));
   </script>
 </body>
 </html>

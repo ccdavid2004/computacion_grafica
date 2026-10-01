@@ -3,333 +3,234 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Contáctenos – Hospital Salud Vida. Agende su cita, consulte nuestros horarios y encuéntrenos en Pasto, Nariño, Colombia.">
+  <meta name="description" content="Contactanos - Hospital Salud Vida.">
   <title>Contacto | Salud Vida Hospital</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
+  <!-- HEADER -->
   <header class="header" id="header">
     <div class="container header-container">
-      <a href="index.html" class="brand" aria-label="Salud Vida – Inicio">
-        <img src="img/logos/logo-saludvida-header.png" alt="Logo Salud Vida">
+      <a href="index.html" class="brand" aria-label="Salud Vida - Inicio">
+        <img src="img/logos/logo-saludvida-header.png" alt="Salud Vida HOSPITAL">
       </a>
-      <nav class="nav" aria-label="Navegación principal">
+      <nav class="nav" aria-label="Navegacion principal">
         <a href="index.html">Inicio</a>
+        <a href="index.html#noticias">Noticias</a>
         <a href="index.html#servicios">Servicios</a>
         <a href="index.html#nosotros">Nosotros</a>
-        <a href="index.html#equipo">Equipo</a>
-        <a href="contacto.html" class="btn-nav-cta active">Contacto</a>
+        <a href="contacto.html" class="active">Contacto</a>
       </nav>
+      <button class="search-toggle" aria-label="Buscar">
+        <img src="img/icons/search.svg" alt="Buscar" class="search-icon-img">
+      </button>
     </div>
   </header>
-  <section class="page-hero">
-    <span class="section-label">Estamos aquí para ti</span>
-    <h1>Contáctenos</h1>
-    <p>Agende su cita, realice consultas o visítenos. Nuestro equipo está disponible para atenderle con gusto.</p>
-  </section>
-  <section class="section">
-    <div class="container">
-      <div class="contact-layout">
-        <aside class="contact-info-panel">
-          <h3>Información de contacto</h3>
-          <ul class="contact-info-list">
-            <li class="contact-info-item">
-              <div class="contact-icon-box">
-                <img src="img/icons/geo-alt-fill.svg" alt="Dirección">
-              </div>
-              <div class="contact-info-text">
-                <strong>Dirección</strong>
-                <span>Calle 18 # 25–40<br>Pasto, Nariño, Colombia</span>
-              </div>
-            </li>
-            <li class="contact-info-item">
-              <div class="contact-icon-box">
-                <img src="img/icons/telephone-fill.svg" alt="Teléfono">
-              </div>
-              <div class="contact-info-text">
-                <strong>Teléfono</strong>
-                <span>(+57) 602 720 0000<br>Línea urgencias: 123</span>
-              </div>
-            </li>
-            <li class="contact-info-item">
-              <div class="contact-icon-box">
-                <img src="img/icons/envelope-fill.svg" alt="Correo electrónico">
-              </div>
-              <div class="contact-info-text">
-                <strong>Correo electrónico</strong>
-                <span>info@saludvida.com.co<br>citas@saludvida.com.co</span>
-              </div>
-            </li>
-            <li class="contact-info-item">
-              <div class="contact-icon-box">
-                <img src="img/icons/clock-fill.svg" alt="Horario de atención">
-              </div>
-              <div class="contact-info-text">
-                <strong>Horario de atención</strong>
-                <span>Lunes – Viernes: 7:00 am – 7:00 pm<br>Sábados: 8:00 am – 2:00 pm<br>Urgencias: 24 horas</span>
-              </div>
-            </li>
-          </ul>
-          <h4 style="font-family:Verdana,Geneva,sans-serif;font-size:0.9rem;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;color:var(--text-dark);margin-bottom:16px;">Síguenos</h4>
-          <div class="footer-social" style="background:transparent;">
-            <a aria-label="Facebook" style="background:rgba(10,124,92,0.1);">
-              <img src="img/icons/facebook.svg" alt="Facebook">
-            </a>
-            <a aria-label="Instagram" style="background:rgba(10,124,92,0.1);">
-              <img src="img/icons/instagram.svg" alt="Instagram">
-            </a>
-            <a aria-label="Twitter" style="background:rgba(10,124,92,0.1);">
-              <img src="img/icons/twitter.svg" alt="Twitter">
-            </a>
-            <a aria-label="YouTube" style="background:rgba(10,124,92,0.1);">
-              <img src="img/icons/youtube.svg" alt="YouTube">
-            </a>
-          </div>
-        </aside>
-        <div class="contact-form-panel">
-          <h3>Envíenos un mensaje</h3>
-          <p class="form-subtitle">Complete el formulario y nos comunicaremos con usted a la brevedad posible.</p>
-          <form id="contactForm" action="#" method="POST" novalidate>
-            <div class="form-row">
-              <div class="form-group">
-                <label for="nombre">Nombre <span class="required">*</span></label>
-                <input
-                  type="text"
-                  id="nombre"
-                  name="nombre"
-                  class="form-control"
-                  placeholder="Ingrese su nombre"
-                  required
-                  autocomplete="given-name"
-                >
-              </div>
-              <div class="form-group">
-                <label for="apellido">Apellido <span class="required">*</span></label>
-                <input
-                  type="text"
-                  id="apellido"
-                  name="apellido"
-                  class="form-control"
-                  placeholder="Ingrese su apellido"
-                  required
-                  autocomplete="family-name"
-                >
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="form-group">
-                <label for="email">Correo electrónico <span class="required">*</span></label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  class="form-control"
-                  placeholder="correo@ejemplo.com"
-                  required
-                  autocomplete="email"
-                >
-              </div>
-              <div class="form-group">
-                <label for="telefono">Teléfono</label>
-                <input
-                  type="tel"
-                  id="telefono"
-                  name="telefono"
-                  class="form-control"
-                  placeholder="(+57) 300 000 0000"
-                  autocomplete="tel"
-                >
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="especialidad">Especialidad de interés</label>
-              <select id="especialidad" name="especialidad" class="form-control">
-                <option value="" disabled selected>Seleccione una especialidad</option>
-                <option value="cardiologia">Cardiología</option>
-                <option value="pediatria">Pediatría</option>
-                <option value="neurologia">Neurología</option>
-                <option value="urgencias">Urgencias</option>
-                <option value="imagen">Diagnóstico por Imagen</option>
-                <option value="cirugia">Cirugía General</option>
-                <option value="otro">Otra especialidad</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="asunto">Asunto <span class="required">*</span></label>
-              <input
-                type="text"
-                id="asunto"
-                name="asunto"
-                class="form-control"
-                placeholder="¿En qué podemos ayudarle?"
-                required
-              >
-            </div>
-            <div class="form-group">
-              <label for="mensaje">Mensaje <span class="required">*</span></label>
-              <textarea
-                id="mensaje"
-                name="mensaje"
-                class="form-control"
-                placeholder="Escriba aquí su consulta, solicitud de cita o comentario..."
-                required
-              ></textarea>
-            </div>
-            <div class="form-check">
-              <input type="checkbox" id="terminos" name="terminos" required>
-              <label for="terminos">
-                Acepto la <a href="#">Política de Privacidad</a> y el
-                <a href="#">Tratamiento de Datos Personales</a> del Hospital Salud Vida.
-              </label>
-            </div>
-            <button type="submit" class="btn-submit" id="btnEnviar">
-              <img src="img/icons/send.svg" alt="" class="btn-icon btn-icon-white">
-              Enviar mensaje
-            </button>
-          </form>
-          <div id="formSuccess" style="display:none; margin-top:24px; padding:20px 24px; background:rgba(10,124,92,0.1); border:1px solid var(--primary); border-radius:var(--radius-sm); color:var(--primary);">
-            <strong>¡Mensaje enviado con éxito!</strong><br>
-            Nos comunicaremos con usted en un plazo de 24 horas hábiles. ¡Gracias por contactarnos!
-          </div>
-        </div>
+
+  <!-- CONTACT HERO -->
+  <section class="contact-hero">
+    <div class="container contact-hero-inner">
+      <div class="contact-hero-text">
+        <h1>Contáctanos</h1>
+        <p>Estamos aquí para ayudarte. Completa el formulario y nos pondremos en contacto contigo.</p>
       </div>
-      <div class="schedule-grid">
-        <div class="schedule-card">
-          <h4>
-            <img src="img/icons/clock.svg" alt="" class="svc-icon" style="width:22px;height:22px;">
-            Horarios de Atención
-          </h4>
-          <table class="schedule-table">
-            <tbody>
-              <tr>
-                <td>Lunes – Viernes</td>
-                <td>7:00 am – 7:00 pm</td>
-              </tr>
-              <tr>
-                <td>Sábado</td>
-                <td>8:00 am – 2:00 pm</td>
-              </tr>
-              <tr>
-                <td>Domingo y festivos</td>
-                <td>Solo urgencias</td>
-              </tr>
-              <tr>
-                <td>Urgencias</td>
-                <td class="emergency">24 horas / 365 días</td>
-              </tr>
-              <tr>
-                <td>Central de citas</td>
-                <td>Lun–Vie 7am–5pm</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="schedule-card">
-          <h4>
-            <img src="img/icons/map.svg" alt="" class="svc-icon" style="width:22px;height:22px;">
-            Encuéntrenos
-          </h4>
-          <div class="map-wrap">
-            <img src="img/ubicacion.jpg" alt="Ubicación Hospital Salud Vida" style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-sm);">
-          </div>
-        </div>
+      <div class="contact-hero-img">
+        <img src="img/doctor.jpg" alt="Doctora">
       </div>
     </div>
   </section>
+
+  <!-- MAIN CONTACT SECTION -->
+  <section class="contact-main">
+    <div class="container contact-grid">
+      
+      <!-- FORM -->
+      <div class="contact-form-area">
+        <h2>Formulario de contacto</h2>
+        <p class="form-desc">Diligencia tus datos y cuéntanos cómo podemos ayudarte.</p>
+
+        <form action="#" method="POST" class="form-grid">
+          
+          <div class="fgroup fw">
+            <label>Nombre completo <span class="req">*</span></label>
+            <input type="text" placeholder="Tu nombre completo" required>
+          </div>
+
+          <div class="fgroup fw">
+            <label>Tipo de documento <span class="req">*</span></label>
+            <select required>
+              <option value="" disabled selected>Selecciona una opción</option>
+              <option>Cédula de ciudadanía</option>
+              <option>Tarjeta de identidad</option>
+              <option>Pasaporte</option>
+            </select>
+          </div>
+
+          <div class="fgroup">
+            <label>Número de documento <span class="req">*</span></label>
+            <input type="text" placeholder="Número de documento" required>
+          </div>
+
+          <div class="fgroup">
+            <label>Fecha de nacimiento</label>
+            <input type="date">
+          </div>
+
+          <div class="fgroup fw">
+            <label>Correo electrónico <span class="req">*</span></label>
+            <input type="email" placeholder="tucorreo@ejemplo.com" required>
+          </div>
+
+          <div class="fgroup fw">
+            <label>Teléfono <span class="req">*</span></label>
+            <input type="tel" placeholder="Número de teléfono" required>
+          </div>
+
+          <div class="fgroup fw">
+            <label>Ciudad <span class="req">*</span></label>
+            <select required>
+              <option value="" disabled selected>Selecciona una ciudad</option>
+              <option>Bogotá</option>
+              <option>Medellín</option>
+              <option>Cali</option>
+            </select>
+          </div>
+
+          <div class="fgroup fw">
+            <label>Servicio de interés <span class="req">*</span></label>
+            <select required>
+              <option value="" disabled selected>Selecciona un servicio</option>
+              <option>Consulta externa</option>
+              <option>Urgencias</option>
+            </select>
+          </div>
+
+          <div class="fgroup fw">
+            <label>Motivo del contacto <span class="req">*</span></label>
+            <div class="radio-grid">
+              <label class="radio-label"><input type="radio" name="motivo" checked> Solicitar información</label>
+              <label class="radio-label"><input type="radio" name="motivo"> Agendar una cita</label>
+              <label class="radio-label"><input type="radio" name="motivo"> Comentario o sugerencia</label>
+              <label class="radio-label"><input type="radio" name="motivo"> Otro</label>
+            </div>
+          </div>
+
+          <div class="fgroup fw">
+            <label>Mensaje <span class="req">*</span></label>
+            <textarea placeholder="Escribe tu mensaje aquí..." required></textarea>
+          </div>
+
+          <div class="fgroup fw policy-group">
+            <label class="checkbox-label">
+              <input type="checkbox" required>
+              Acepto la <a href="#">política de tratamiento de datos personales.</a> <span class="req">*</span>
+            </label>
+          </div>
+
+          <div class="fw">
+            <button type="submit" class="btn btn-primary">Enviar mensaje &rarr;</button>
+          </div>
+
+        </form>
+      </div>
+
+      <!-- INFO -->
+      <div class="contact-info-area">
+        <h3>Información de contacto</h3>
+        
+        <div class="info-item">
+          <div class="info-icon"><img src="img/icons/geo-alt-accent.svg" alt=""></div>
+          <div class="info-text">
+            <strong>Dirección</strong>
+            <span>Calle 123 #45-67<br>Bogotá, Colombia</span>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon"><img src="img/icons/telephone-accent.svg" alt=""></div>
+          <div class="info-text">
+            <strong>Teléfono</strong>
+            <span>+57 601 123 4567</span>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon"><img src="img/icons/envelope-accent.svg" alt=""></div>
+          <div class="info-text">
+            <strong>Correo electrónico</strong>
+            <span>info@saludvida.com</span>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon"><img src="img/icons/clock-fill-accent.svg" alt=""></div>
+          <div class="info-text">
+            <strong>Horario de atención</strong>
+            <span>Lunes a viernes<br>7:00 a.m. - 6:00 p.m.<br><br>Sábados<br>7:00 a.m. - 12:00 m.</span>
+          </div>
+        </div>
+
+        <h3 class="mt-40">Ubícanos en el mapa</h3>
+        <div class="map-container">
+          <img src="img/ubicacion.jpg" alt="Mapa">
+        </div>
+
+        <h3 class="mt-40">Síguenos en redes sociales</h3>
+        <div class="social-colored">
+          <img src="img/icons/facebook.svg" alt="Facebook">
+          <img src="img/icons/instagram.svg" alt="Instagram">
+          <img src="img/icons/twitter.svg" alt="Twitter">
+          <img src="img/icons/youtube.svg" alt="YouTube">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER CONTACT -->
   <footer class="footer">
     <div class="container">
-      <div class="footer-grid">
-        <div>
+      <div class="footer-grid contact-footer-grid">
+        <div class="footer-col">
           <div class="footer-brand">
             <img src="img/logos/logo-saludvida-footer.png" alt="Salud Vida Hospital">
           </div>
-          <p class="footer-desc">
-            Hospital Salud Vida – comprometidos con la excelencia médica, la innovación y el bienestar
-            integral de cada paciente y su familia en Pasto, Nariño.
-          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Síguenos</h4>
           <div class="footer-social">
-            <a href="#" aria-label="Facebook">
-              <img src="img/icons/facebook-white.svg" alt="Facebook">
-            </a>
-            <a href="#" aria-label="Instagram">
-              <img src="img/icons/instagram-white.svg" alt="Instagram">
-            </a>
-            <a href="#" aria-label="Twitter">
-              <img src="img/icons/twitter-white.svg" alt="Twitter">
-            </a>
+            <a href="#" aria-label="Facebook"><img src="img/icons/facebook.svg" alt="Facebook"></a>
+            <a href="#" aria-label="Instagram"><img src="img/icons/instagram.svg" alt="Instagram"></a>
+            <a href="#" aria-label="Twitter"><img src="img/icons/twitter.svg" alt="Twitter"></a>
+            <a href="#" aria-label="YouTube"><img src="img/icons/youtube.svg" alt="YouTube"></a>
           </div>
         </div>
-        <div>
-          <h4>Navegación</h4>
+        <div class="footer-col">
+          <h4>Enlaces rápidos</h4>
           <ul class="footer-links">
-            <li><a href="index.html"><img src="img/icons/arrow-right-white.svg" alt="">Inicio</a></li>
-            <li><a href="index.html#servicios"><img src="img/icons/arrow-right-white.svg" alt="">Servicios</a></li>
-            <li><a href="index.html#nosotros"><img src="img/icons/arrow-right-white.svg" alt="">Nosotros</a></li>
-            <li><a href="index.html#equipo"><img src="img/icons/arrow-right-white.svg" alt="">Equipo</a></li>
-            <li><a href="contacto.html"><img src="img/icons/arrow-right-white.svg" alt="">Contacto</a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="index.html#noticias">Noticias</a></li>
+            <li><a href="index.html#servicios">Servicios</a></li>
+            <li><a href="index.html#nosotros">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
           </ul>
         </div>
-        <div>
-          <h4>Servicios</h4>
-          <ul class="footer-links">
-            <li><a href="#"><img src="img/icons/arrow-right-white.svg" alt="">Cardiología</a></li>
-            <li><a href="#"><img src="img/icons/arrow-right-white.svg" alt="">Pediatría</a></li>
-            <li><a href="#"><img src="img/icons/arrow-right-white.svg" alt="">Neurología</a></li>
-            <li><a href="#"><img src="img/icons/arrow-right-white.svg" alt="">Urgencias 24/7</a></li>
+        <div class="footer-col">
+          <h4>Información</h4>
+          <ul class="footer-links contact-info-links">
+            <li><img src="img/icons/geo-alt-white.svg" alt=""> Calle 123 #45-67, Bogotá</li>
+            <li><img src="img/icons/telephone-white.svg" alt=""> +57 601 123 4567</li>
+            <li><img src="img/icons/envelope-white.svg" alt=""> info@saludvida.com</li>
           </ul>
-        </div>
-        <div>
-          <h4>Contacto</h4>
-          <div class="footer-contact-info">
-            <div class="contact-item">
-              <img src="img/icons/geo-alt-accent.svg" alt="" class="contact-icon-img">
-              <span>Calle 18 # 25–40, Pasto, Nariño</span>
-            </div>
-            <div class="contact-item">
-              <img src="img/icons/telephone-accent.svg" alt="" class="contact-icon-img">
-              <span>(+57) 602 720 0000</span>
-            </div>
-            <div class="contact-item">
-              <img src="img/icons/envelope-accent.svg" alt="" class="contact-icon-img">
-              <span>info@saludvida.com.co</span>
-            </div>
-          </div>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>© 2024 Hospital Salud Vida. Todos los derechos reservados.</p>
-        <p>Universidad de Nariño – Ingeniería de Sistemas – Computación Gráfica</p>
+        <p>&copy; 2026 Salud Vida Hospital. Todos los derechos reservados.</p>
+        <p><a href="#">Política de privacidad</a> | <a href="#">Términos de uso</a></p>
       </div>
     </div>
   </footer>
-  <script>
-    const header = document.getElementById('header');
-    window.addEventListener('scroll', () => {
-      header.classList.toggle('scrolled', window.scrollY > 50);
-    });
-    const form = document.getElementById('contactForm');
-    const successMsg = document.getElementById('formSuccess');
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      const required = form.querySelectorAll('[required]');
-      let valid = true;
-      required.forEach(field => {
-        if (!field.value.trim() || (field.type === 'checkbox' && !field.checked)) {
-          field.style.borderColor = '#e53e3e';
-          valid = false;
-        } else {
-          field.style.borderColor = '';
-        }
-      });
-      if (valid) {
-        form.style.display = 'none';
-        successMsg.style.display = 'block';
-        successMsg.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }
-    });
-    form.querySelectorAll('.form-control').forEach(el => {
-      el.addEventListener('input', () => { el.style.borderColor = ''; });
-    });
-  </script>
+
 </body>
 </html>

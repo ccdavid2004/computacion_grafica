@@ -1,4 +1,4 @@
-﻿/* =====================================================
+/* =====================================================
    SALUD VIDA - Hoja de Estilos Principal
    Fuentes: Verdana (titulos) | Tahoma (cuerpo)
    ===================================================== */
@@ -655,4 +655,93 @@ select.form-control {
 .pulse-dot::after {
   content: ''; position: absolute; inset: 0; border-radius: 50%;
   background: var(--primary); animation: pulse-ring 1.4s ease-out infinite;
+}
+
+/* =====================================================
+   ICONOS SVG DESCARGADOS DE https://icons.getbootstrap.com/
+   Almacenados localmente en img/icons/
+   ===================================================== */
+
+/* Icono dentro de botón */
+.btn-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  display: inline-block;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+/* Icono blanco para botones con fondo oscuro */
+.btn-icon-white {
+  filter: brightness(0) invert(1);
+}
+
+/* Icono dentro de tarjeta de servicio */
+.svc-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  display: block;
+  transition: filter var(--transition);
+}
+
+/* Al hacer hover en la service-card, el icono se vuelve blanco */
+.service-card:hover .service-icon-wrap .svc-icon {
+  filter: brightness(0) invert(1);
+}
+
+/* Icono en el service-link (flecha) */
+.link-icon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  display: inline-block;
+  vertical-align: middle;
+  transition: transform var(--transition);
+  flex-shrink: 0;
+}
+
+.service-link:hover .link-icon {
+  transform: translateX(5px);
+}
+
+/* Icono en las features de Nosotros */
+.feat-icon {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* Icono de contacto en el footer */
+.contact-icon-img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* Iconos en el panel de info de contacto */
+.contact-icon-box img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+/* Iconos de redes sociales en el footer */
+.footer-social img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+/* Iconos en los links del footer */
+.footer-links a img {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+  flex-shrink: 0;
 }

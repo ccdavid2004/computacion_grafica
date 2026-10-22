@@ -1,0 +1,25 @@
+:host {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1a1a2e;
+  color: #ffffff;
+  padding: 20px 30px;
+  border-radius: 8px;
+}
+
+.footer-seccion {
+  flex: 1;
+  padding: 0 15px;
+}
+
+.footer-seccion h4 {
+  margin-top: 0;
+  font-size: 1rem;
+  border-bottom: 1px solid #0f3460;
+  padding-bottom: 8px;
+}
+
+.footer-seccion p {
+  color: #cccccc;
+  font-size: 13px;
+}

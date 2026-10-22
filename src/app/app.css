@@ -1,0 +1,29 @@
+/* === Contenedor Principal con CSS Grid === */
+.contenedor-principal {
+  display: grid;
+  grid-template-columns: 1fr 250px;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header header"
+    "content sidebar"
+    "footer footer";
+  min-height: 100vh;
+  gap: 15px;
+}
+
+/* Asignar áreas del grid a los componentes */
+.header {
+  grid-area: header;
+}
+
+.content {
+  grid-area: content;
+}
+
+.side-bar {
+  grid-area: sidebar;
+}
+
+.footer {
+  grid-area: footer;
+}

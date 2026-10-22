@@ -1,1 +1,79 @@
-/* You can add global styles to this file, and also import other style files */
+/* === Importar fuente Nerko One de Google Fonts === */
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+/* === Estilos Globales === */
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* === Título h2 === */
+h2 {
+  color: #ff4900;
+  font-size: 2rem;
+}
+
+/* === Párrafos === */
+p {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #0093FF;
+}
+
+/* === Vínculos interactivos === */
+a {
+  color: #001bff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #4CAF50;
+}
+
+a:hover {
+  color: #ff6600;
+  text-decoration: underline;
+}
+
+/* === Lista desordenada === */
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* === Tabla de datos === */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table thead th {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 12px;
+  text-align: left;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: #bec1c3;
+  color: #000000;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #045795;
+  color: #ffffff;
+}
+
+table tbody td {
+  padding: 10px 12px;
+  font-size: 1.5rem;
+}

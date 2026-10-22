@@ -1,0 +1,22 @@
+:host {
+  display: block;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a2e;
+  color: #ffffff;
+  padding: 15px 30px;
+  border-radius: 8px;
+}
+
+.buscador input {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  width: 250px;
+  outline: none;
+}

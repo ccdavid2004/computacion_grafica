@@ -1,0 +1,21 @@
+:host {
+  display: block;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Párrafo azul */
+.parrafo-azul {
+  color: #0093FF;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Párrafo morado con Nerko One */
+.parrafo-morado {
+  color: #c500ff;
+  font-family: 'Nerko One', cursive;
+  font-size: 12px;
+}

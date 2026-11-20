@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@import "primeicons/primeicons.css";
+
+h1,
+h2,
+h3,
+label,
+.p-card,
+.p-card-title,
+.p-card-subtitle,
+.p-card-content,
+.p-datatable-thead > tr > th,
+.p-datatable-tbody > tr > td {
+  color: #ffffff !important;
+}
+
+.required {
+  color: #fca5a5 !important;
+}
